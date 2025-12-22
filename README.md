@@ -1,5 +1,5 @@
 # WinStreak  
-**AI Gamified Calorie Tracker**
+**Gamified AI Calorie Tracker**
 
 ## Why
 I’ve always struggled to lose weight over the long term. At the same time, I’ve always been addicted to video games. Climbing ranks, progressing, and moving up leaderboards is something I’ve always enjoyed.  
