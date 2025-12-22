@@ -2,31 +2,31 @@
 **AI Gamified Calorie Tracker**
 
 ## Why
-J'ai toujours eu du mal à perdre du poids sur le long terme. En parallèle j'ai toujours été accroc aux jeux vidéos. Monter les rang, progresser, monter dans le classement c'est quelque chose qui m'a toujours plu.  
-L'idée de l'application est donc de rendre la perte de poids amusante et sainement compétitive.
+I’ve always struggled to lose weight over the long term. At the same time, I’ve always been addicted to video games. Climbing ranks, progressing, and moving up leaderboards is something I’ve always enjoyed.  
+The idea behind this app is to make weight loss fun and healthily competitive.
 
 ---
 
 ## How it works
 
-### Tracking des calories
+### Calorie tracking
 
-Via une photo du repas  
+Via a photo of your meal  
 
 <img width="292" height="633" alt="IMG_0644" src="https://github.com/user-attachments/assets/d52436f2-854f-44f0-ae2e-f0848da1597e" />
 
-Via une description textuelle ou vocale du repas  
+Via a text or voice description of the meal  
 
 <img width="292" height="633" alt="IMG_0645" src="https://github.com/user-attachments/assets/4353e25f-6545-44f7-9833-75fd169e6a02" />
 
-Via une base de données (Données provenant d'OpenFoodFacts)  
+Via a food database (data provided by OpenFoodFacts)  
 
 <img width="292" height="633" alt="IMG_0646" src="https://github.com/user-attachments/assets/ea590e78-46e8-4334-9da0-ffc6f44dcd1c" />
 
 ---
 
-### Historique
-Chaque semaine, mesurez votre évolution, surveillez votre IMC, et constatez vos progrès en temps réel.
+### History
+Each week, track your progress, monitor your BMI, and see your improvements in real time.
 
 <img width="292" height="633" alt="IMG_0647" src="https://github.com/user-attachments/assets/0c7491df-a573-4165-94e6-8bd50720ee01" />
 
@@ -34,57 +34,57 @@ Chaque semaine, mesurez votre évolution, surveillez votre IMC, et constatez vos
 
 ### Gamification
 
-Un système de streak vous pousse à ne jamais abandonner.  
-Chaque fois que vous vous tenez à votre max calorique, vous gagner 1 point dans le streak.
+A streak system pushes you to never give up.  
+Every time you stay within your daily calorie limit, you earn 1 streak point.
 
 <img width="292" height="633" alt="IMG_0649" src="https://github.com/user-attachments/assets/d34f9116-3eef-4039-a66d-885c56b20689" />
 
-Un système de classement vous fait monter en rang chaque fois que vous respectez votre total calorique quotidien.  
-Attention à ne pas craquer si vous ne voulez pas perdre de points.
+A ranking system lets you climb ranks every time you respect your daily calorie target.  
+Be careful not to slip up if you don’t want to lose points.
 
 <img width="292" height="633" alt="IMG_0648" src="https://github.com/user-attachments/assets/8f2c70f8-d550-4cc9-b801-4baabb8474a0" />
 
 <img width="292" height="633" alt="IMG_0650" src="https://github.com/user-attachments/assets/775bb718-bb7f-45ea-9f52-d6425ab958f2" />
 
-Un système de trophées permet de motiver les complétionistes à continuer d'utiliser l'application.
+A trophy system motivates completionists to keep using the app.
 
 <img width="292" height="633" alt="IMG_0651" src="https://github.com/user-attachments/assets/17d634af-db81-4097-9c37-64eb3a392cd7" />
 
 ---
 
 ## Code
-Le code n’est pas disponible publiquement car l’application est actuellement en développement avec un objectif de croissance et de monétisation.  
-Voici cependant les technologies utilisées.
+The code is not publicly available since the app is currently in development with the goal of growing and generating revenue.  
+However, here are the technologies used.
 
 ---
 
 ## Frontend
 
 ### React Native
-J'utilise React Native pour gérer le frontend.  
-Cela me permet de développer à la fois sur iOS et Android avec une majorité de code en commun.
+I use React Native to handle the frontend.  
+It allows me to develop for both iOS and Android with most of the code shared.
 
 ### Expo
-J'utilise Expo pour packager facilement l'application en `.ipa` et `.aab` et pouvoir les publier sur l’App Store et le Play Store.
+I use Expo to easily package the app into `.ipa` and `.aab` files and publish it on the App Store and Play Store.
 
 ---
 
 ## Backend
 
 ### Django
-J'utilise Django (framework Python) pour gérer le backend.  
-L’authentification JWT intégrée permet de gérer l’authentification simplement sans réinventer la roue, et le système de serializers et d’ORM permet de facilement communiquer avec le frontend et la base de données.
+I use Django (a Python framework) for the backend.  
+Built-in JWT authentication makes it easy to handle auth without reinventing the wheel, and the serializer and ORM systems make communication with the frontend and the database straightforward.
 
 ### PostgreSQL
-La base de données utilisée est PostgreSQL.  
-Le système d’indexation trigramme m’a permis d’avoir une base d’aliments qui répond en **10–50 ms** malgré plus de **200 000 entrées**.
+The database used is PostgreSQL.  
+The trigram indexing system allows the food database to respond in **10–50 ms** despite having more than **200,000 entries**.
 
 ### RabbitMQ
-RabbitMQ permet de gérer les tâches planifiées et ordonnées via **django-celery**.
+RabbitMQ is used to handle scheduled and ordered tasks via **django-celery**.
 
 ---
 
-## Télécharger
+## Download
 
 **iOS**  
 https://apps.apple.com/be/app/streakgg/id6754155267?l=fr-FR  
