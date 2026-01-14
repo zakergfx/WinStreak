@@ -13,22 +13,25 @@ The idea behind this app is to make weight loss fun and healthily competitive.
 
 Via a photo of your meal
 
-<img width="292" height="633" alt="IMG_0644" src="https://github.com/user-attachments/assets/d52436f2-854f-44f0-ae2e-f0848da1597e" />
+<img width="292" height="633" alt="Simulator Screenshot - iPhone 16e - 2026-01-14 at 14 12 00" src="https://github.com/user-attachments/assets/a0e52b4e-8234-42fd-a632-8967249f7fbd" />
 
 Via a text or voice description of the meal
 
-<img width="292" height="633" alt="IMG_0645" src="https://github.com/user-attachments/assets/4353e25f-6545-44f7-9833-75fd169e6a02" />
+<img width="292" height="633" alt="Simulator Screenshot - iPhone 16e - 2026-01-14 at 14 12 20" src="https://github.com/user-attachments/assets/62987ca6-908d-4a8a-9382-5c51559c4b7b" />
+
 
 Via a food database (data provided by OpenFoodFacts)
 
-<img width="292" height="633" alt="IMG_0646" src="https://github.com/user-attachments/assets/ea590e78-46e8-4334-9da0-ffc6f44dcd1c" />
+<img width="292" height="633" alt="Simulator Screenshot - iPhone 16e - 2026-01-14 at 14 12 29" src="https://github.com/user-attachments/assets/bbcb609b-47d9-4190-bc7f-48154d143e05" />
+
 
 ---
 
 ### History
 Each week, track your progress, monitor your BMI, and see your improvements in real time.
 
-<img width="292" height="633" alt="IMG_0647" src="https://github.com/user-attachments/assets/0c7491df-a573-4165-94e6-8bd50720ee01" />
+<img width="292" height="633" alt="Simulator Screenshot - iPhone 16e - 2026-01-14 at 14 15 45" src="https://github.com/user-attachments/assets/7c30f001-af56-4960-854e-99579de22a77" />
+
 
 ---
 
@@ -37,18 +40,21 @@ Each week, track your progress, monitor your BMI, and see your improvements in r
 A streak system pushes you to never give up.
 Every time you stay within your daily calorie limit, you earn 1 streak point.
 
-<img width="292" height="633" alt="IMG_0649" src="https://github.com/user-attachments/assets/d34f9116-3eef-4039-a66d-885c56b20689" />
+<img width="292" height="633" alt="Simulator Screenshot - iPhone 16e - 2026-01-14 at 14 16 25" src="https://github.com/user-attachments/assets/846b9345-cb21-4254-a766-a9206d250c31" />
+
 
 A ranking system lets you climb ranks every time you respect your daily calorie target.
 Be careful not to slip up if you don't want to lose points.
 
-<img width="292" height="633" alt="IMG_0648" src="https://github.com/user-attachments/assets/8f2c70f8-d550-4cc9-b801-4baabb8474a0" />
+<img width="292" height="633" alt="Simulator Screenshot - iPhone 16e - 2026-01-14 at 14 16 27" src="https://github.com/user-attachments/assets/c387a6f3-c018-4e7d-9759-25db3b72df0e" />
 
-<img width="292" height="633" alt="IMG_0650" src="https://github.com/user-attachments/assets/775bb718-bb7f-45ea-9f52-d6425ab958f2" />
+<img width="292" height="633" alt="Simulator Screenshot - iPhone 16e - 2026-01-14 at 14 16 32" src="https://github.com/user-attachments/assets/70bee43f-3f72-4887-9467-4107ab6ce3aa" />
+
 
 A trophy system motivates completionists to keep using the app.
 
-<img width="292" height="633" alt="IMG_0651" src="https://github.com/user-attachments/assets/17d634af-db81-4097-9c37-64eb3a392cd7" />
+<img width="292" height="633" alt="Simulator Screenshot - iPhone 16e - 2026-01-14 at 14 16 41" src="https://github.com/user-attachments/assets/a9398a13-6951-4d48-aab2-d3249c494349" />
+
 
 ---
 
@@ -62,13 +68,13 @@ A trophy system motivates completionists to keep using the app.
                     │  ┌───────────────────────────────────────────────────┐  │
    Internet         │  │           Nginx Proxy Manager                     │  │
        │            │  │         (Reverse Proxy + SSL)                     │  │
-       │            │  │              vpsapp.eatiq.be                       │  │
+       │            │  │              vpsapp.eatiq.be                      │  │
        ▼            │  └─────────────────┬────────────────────┬────────────┘  │
  ┌──────────┐       │                    │                    │               │
  │  Users   │───────┼────────────────────┼────────────────────┘               │
  └──────────┘       │                    ▼                                    │
                     │  ┌─────────────────────────────────────────────────┐    │
-                    │  │              Docker Network (LAN)                │    │
+                    │  │              Docker Network (LAN)               │    │
                     │  │  ┌──────────┐  ┌──────────┐  ┌──────────────┐   │    │
                     │  │  │  back1   │  │  back2   │  │  PostgreSQL  │   │    │
                     │  │  │ (Apache  │  │ (Apache  │  │    17.6      │   │    │
