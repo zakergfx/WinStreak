@@ -211,7 +211,7 @@ Data persistence is achieved through Docker volume mounts, ensuring data survive
 | **HTTP(S) Monitoring** | Endpoint availability checks on API routes |
 | **Container Monitoring** | Docker container health status |
 | **Response Time Tracking** | Latency metrics and historical graphs |
-| **Alerting** | Notifications via email, Discord, Slack, etc. |
+| **Alerting** | Notifications via email |
 | **Status Page** | Public/private status page for uptime visibility |
 | **Certificate Expiry** | SSL certificate expiration alerts |
 
